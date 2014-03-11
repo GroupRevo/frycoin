@@ -1065,8 +1065,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 300 * COIN;
 
-    // Subsidy is cut in half every 16666 blocks
-    nSubsidy >>= (nHeight / 16666);
+    // Subsidy disabled
+    nSubsidy >>= (nHeight / 9999999999);
 
     return nSubsidy + nFees;
 }
