@@ -1,7 +1,7 @@
 Frycoin
 ================================
 
-Website URL coming soon.
+http://frycoin.org
 
 Copyright (c) 2009-2013 Bitcoin Developers
 
