@@ -5,9 +5,9 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.7.0
+!define VERSION 0.8.7.1
 !define COMPANY "Frycoin project"
-!define URL http://www.NoWebSiteYet.com/
+!define URL http://www.frycoin.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile Frycoin-0.8.7.0-win32-setup.exe
+OutFile Frycoin-0.8.7.1-win32-setup.exe
 InstallDir $PROGRAMFILES\Frycoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.7.0
+VIProductVersion 0.8.7.1
 VIAddVersionKey ProductName Frycoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
