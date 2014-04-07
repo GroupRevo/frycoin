@@ -1,0 +1,9 @@
+Building Frycoin
+
+See doc/readme-qt.rst for instructions on building Frycoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Frycoin.
+
+See doc/build-*.txt for instructions on building Frycoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Frycoin.
