@@ -1396,10 +1396,11 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 {
 int DiffMode = 1;
 if (fTestNet) {
-if (pindexLast->nHeight+1 >= 0) { DiffMode = 3; }
+if (pindexLast->nHeight+1 >= 2) { DiffMode = 3; }
+else if (pindexLast->nHeight+1 >= 0) { DiffMode = 2; }
 }
 else {
-if (pindexLast->nHeight+1 >= 200000) { DiffMode = 3; }
+if (pindexLast->nHeight+1 >= 183500) { DiffMode = 3; }
 else if (pindexLast->nHeight+1 >= 0) { DiffMode = 2; }
 }
 
